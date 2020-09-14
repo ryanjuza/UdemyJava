@@ -1,0 +1,15 @@
+import World.Plant;
+
+public class UdemyPublicPrivateProtected {
+
+	public static void main(String[] args) {
+		
+		Plant plant = new Plant();
+		System.out.println(plant.name);
+		System.out.println(plant.ID);
+		//will not work, plant is private
+		//System.out.println(plant.type);
+
+	}
+
+}

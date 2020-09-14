@@ -1,0 +1,26 @@
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.util.Scanner;
+
+public class UdemyReadingText {
+
+	public static void main(String[] args) throws FileNotFoundException {
+		
+		String filemane = "//Users/mbp13/eclipse-workspace/UdemyReadingText/test.txt";
+		File textFile = new File(filemane);
+		Scanner in = new Scanner(textFile);
+		
+		int value = Integer.parseInt(in.nextLine());
+		System.out.println("Read value " + value);
+		
+		while(in.hasNextLine()) {
+			String line = in.nextLine();
+			System.out.println(line);
+		}
+		
+		in.close();
+		
+
+	}
+
+}

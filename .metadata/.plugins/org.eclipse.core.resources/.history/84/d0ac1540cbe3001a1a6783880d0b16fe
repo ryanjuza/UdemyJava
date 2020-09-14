@@ -1,0 +1,11 @@
+
+public class UdemyStringFormatting {
+
+	public static void main(String[] args) {
+		String info = "";
+		info += "My name is Bob";
+		System.out.println("info");
+
+	}
+
+}

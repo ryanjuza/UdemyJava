@@ -1,0 +1,17 @@
+class Machine{
+	private String name;
+	
+	public Machine() {
+		System.out.println("Constructor running!");
+		
+		name = "Arnold";
+	}
+}
+
+public class UdemyConstructors {
+
+	public static void main(String[] args) {
+		Machine machine = new Machine();
+	}
+
+}
