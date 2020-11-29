@@ -1,4 +1,4 @@
-
+//includes getters as well
 class Person{
 	String name;
 	int age;
@@ -42,10 +42,6 @@ public class UdemyClassesAndObjects {
 		person2.name = "Sally Studebaker";
 		person2.age = 27;
 		person2.speak();
-		
-		
-		
-
 	}
 
 }
