@@ -2,6 +2,10 @@
 class Person{
 	String name;
 	int age;
+	
+	void speak() {
+		System.out.println("Hi, my name is " + name + " and I am " + age + " years old.");
+	}
 }
 
 
@@ -13,12 +17,14 @@ public class UdemyClassesAndObjects {
 		
 		person1.name = "Dude Guy";
 		person1.age = 32;
+		person1.speak();
 		
 		Person person2 = new Person();
-		person1.name = "Sally Studebaker";
-		person1.age = 27;
+		person2.name = "Sally Studebaker";
+		person2.age = 27;
+		person2.speak();
 		
-		System.out.println(person1.name);
+
 	}
 
 }
