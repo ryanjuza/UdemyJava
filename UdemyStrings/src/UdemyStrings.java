@@ -1,4 +1,4 @@
-
+//comment to test git with
 public class UdemyStrings {
 	public static void main(String[] args) {
 		int myInt = 7;
